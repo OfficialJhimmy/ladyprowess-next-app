@@ -12,7 +12,7 @@ const ProfileAbout = () => {
     <div className={styles.profileabout__container}>
       <div className={styles.profile__container__top}>
         <div className={styles.profile__container__top__image}>
-        <Image src={lady3} alt="Lady Prowess"/>
+        <Image src={lady3} alt="Lady Prowess" priority />
         </div>
         <div className={styles.profile__container__top__text}>
           <h2>About Me</h2>
@@ -92,7 +92,7 @@ const ProfileAbout = () => {
           </p>
         </div>
         <div className={styles.profile__container__bottom__image}>
-        <Image src={lady1} alt="Brand Ambassadors" />
+        <Image src={lady1} alt="Brand Ambassadors" priority />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { BiChevronDown } from "react-icons/bi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import styles from './dropdown.module.css'
 export default function DropDownMenu() {
   const pathname = usePathname();
 
@@ -60,22 +60,22 @@ export default function DropDownMenu() {
       >
        
         <div>
-          <Link href="/services/academic-writing">Academic Writing</Link>
+          <Link href="/services/academic-writing" className={styles.dropdownmenu__link}>Academic Writing</Link>
         </div>
         <div>
-          <Link href="/services/blog-post">Blog Post</Link>
+          <Link href="/services/blog-post" className={styles.dropdownmenu__link}>Blog Post</Link>
         </div>
         <div>
-          <Link href="/services/content-marketing">Content Marketing</Link>
+          <Link href="/services/content-marketing" className={styles.dropdownmenu__link}>Content Marketing</Link>
         </div>
         <div>
-          <Link href="/services/custom-services">Custom Services</Link>
+          <Link href="/services/custom-services" className={styles.dropdownmenu__link}>Custom Services</Link>
         </div>
         <div>
-          <Link href="/services/seo-management">SEO Management</Link>
+          <Link href="/services/seo-management" className={styles.dropdownmenu__link}>SEO Management</Link>
         </div>
         <div>
-          <Link href="/services/technical-writing">Technical Writing</Link>
+          <Link href="/services/technical-writing" className={styles.dropdownmenu__link}>Technical Writing</Link>
         </div>
       </Menu>
     </div>

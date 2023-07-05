@@ -13,6 +13,7 @@ const About = () => {
           // fill={true}
           src={lady2}
           alt="A Woman holidng a laptop inside Ladyprowess logo"
+          priority 
           // height={500}
         />
       </div>

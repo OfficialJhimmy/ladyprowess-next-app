@@ -15,24 +15,24 @@ const AboutLady = () => {
           <Image
             src={rect7}
             alt="Brand ambassador of Ladyprowess"
-            
+            priority 
           />
           <Image
             src={rect38}
             alt="Brand ambassador of Ladyprowess2"
-          
+            priority 
           />
         </div>
         <div className={styles.aboutlady__image__left}>
           <Image
             src={rect37}
             alt="Brand ambassador of Ladyprowess3"
-           
+            priority 
           />
           <Image
             src={rect39}
             alt="Brand ambassador of Ladyprowess4"
-        
+            priority 
           />
         </div>
       </div>
