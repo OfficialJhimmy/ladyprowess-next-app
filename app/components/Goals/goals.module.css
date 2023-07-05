@@ -1,0 +1,149 @@
+.goals__container {
+  display: flex;
+  margin-top: 20px;
+  background: #507b80;
+  color: #fff;
+}
+
+.goals__container__text,
+.goals__container__image {
+  width: 50%;
+}
+
+.goals__container__text {
+  padding: 0 20px 20px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.goals__text__mission__container {
+  margin-bottom: 95px;
+}
+
+.goals__container__image {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: fit-content;
+  position: relative;
+}
+
+/* .goals__aims__text {
+  background-color: aqua;
+} */
+
+.hide_on_laptop {
+  display: none;
+}
+
+.goals__aims__text img {
+  display: none;
+}
+
+/* TYPOGRAPHY */
+.goals__aims__text h3 {
+  font-size: 30px;
+}
+
+.goals__aims__text p {
+  font-size: 20px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 700px) {
+  .goals__container {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .goals__container__text,
+  .goals__container__image {
+    width: 100%;
+  }
+
+  .goals__container__text {
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .goals__text--mission__container {
+    margin-bottom: 25px;
+  }
+
+  .goals__container__image {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .show_on_laptop {
+    display: none;
+  }
+
+  .hide_on_laptop {
+    display: block;
+    height: fit-content;
+  }
+
+  .goals__aims__text img {
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  /* TYPOGRAPHY */
+  .goals__aims__text h3 {
+    font-size: 22px;
+  }
+
+  .goals__aims__text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+  .goals__container {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    gap: 40px;
+    padding: 20px 0;
+  }
+
+  .goals__container__text,
+  .goals__container__image {
+    width: 100%;
+  }
+
+  .goals__text__mission__container {
+    margin-bottom: 25px;
+  }
+
+  .goals__container__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .show_on_laptop {
+    display: none;
+  }
+
+  .hide_on_laptop {
+    display: block;
+  }
+
+  /* TYPOGRAPHY */
+  .goals__aims__text h3 {
+    font-size: 27px;
+  }
+
+  .goals__aims__text p {
+    font-size: 18px;
+  }
+}
