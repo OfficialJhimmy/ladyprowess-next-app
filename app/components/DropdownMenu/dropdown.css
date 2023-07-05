@@ -1,0 +1,14 @@
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 10px;
+    background-color: #507b80;
+    color: #fff;
+    width: 200px;
+  }
+  
+  .css-6hp17o-MuiList-root-MuiMenu-list a {
+    font-family: '__myFont_416dbd', '__myFont_Fallback_416dbd' !important;    font-size: 20px !important;
+    font-size: 15px !important;
+  }
